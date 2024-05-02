@@ -23,5 +23,10 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
-
-
+lists = [input("Enter a number: "),input("Enter a number: "),input("Enter a number: "),input("Enter a number: "),input("Enter a number: "),input("Enter a number: "),input("Enter a number: "),input("Enter a number: "),input("Enter a number: "),input("Enter a number: "),]
+if -1 in lists:
+    
+    print("Largest element is:",  max(lists))
+else:
+    lists.sort()
+    print(lists)

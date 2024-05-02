@@ -23,3 +23,6 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+list =[ input("enter a word: "), input("enter a word: "), input("enter a word: "), input("enter a word: "), input("enter a word: ") ]
+list.sort()
+print(list)

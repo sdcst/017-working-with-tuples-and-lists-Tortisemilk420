@@ -24,5 +24,12 @@ word not in list
 
 """
 
-fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
-
+fruit = ["apple","cherry","kiwi","banana","strawberry","blueberry","dragonfruit","mango","pear"]
+MoreFruit = input("Enter a fruit name: ")
+if MoreFruit in fruit:
+    fruit.remove(MoreFruit)
+    print(fruit)
+if MoreFruit not in fruit:
+    fruit.insert(0,MoreFruit)
+    print(fruit)
+ 

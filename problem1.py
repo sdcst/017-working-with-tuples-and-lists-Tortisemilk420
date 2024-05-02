@@ -19,3 +19,10 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+people = ["Crow", "Shelly", "Dina", "Spike", "Buster", "Amber"]
+print(people)
+Rework = input("Enter a name from the list to replace: ")
+people.remove(Rework)
+NewBrawler = input("Enter a name for the new brawler: ")
+people.insert(0, NewBrawler)
+print(people)
